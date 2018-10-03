@@ -1,0 +1,15 @@
+{
+  "name": "Savetab",
+  "manifest_version": 2,
+  "version": "1.0.0",
+  "description": "save current windows' tabs",
+  "browser_action": {
+    "defalt_icon": "icon.png",
+    "default_title": "Savetab",
+    "default_popup": "savetab.html"
+  },
+  "permissions": [
+    "tabs",
+    "storage"
+  ]
+}
